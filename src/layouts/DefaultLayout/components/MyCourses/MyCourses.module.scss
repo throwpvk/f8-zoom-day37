@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.myCoursesBtn {
+  background: #ef7722;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.08);
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

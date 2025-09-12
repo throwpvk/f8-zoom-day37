@@ -1,0 +1,20 @@
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ef7722;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}

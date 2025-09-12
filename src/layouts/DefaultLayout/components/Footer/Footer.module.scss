@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0;
+  background: #fff0c4;
+  font-size: 1.1rem;
+}
+
+.wrapper a {
+  color: #ef7722;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 4px 12px;
+  border-radius: 6px;
+
+  &.active {
+    opacity: 0.8;
+  }
+  &:hover {
+    opacity: 0.6;
+  }
+}
