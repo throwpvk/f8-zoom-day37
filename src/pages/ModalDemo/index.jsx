@@ -126,7 +126,7 @@ function ModalDemo() {
         shouldCloseOnEsc={true}
       >
         <h2>Callback Modal</h2>
-        <p>Mở/đóng modal này sẽ log ra console.</p>
+        <p>Mở/đóng modal này sẽ log ra console. </p>
         <button onClick={() => setCallbackOpen(false)}>Đóng</button>
       </Modal>
     </div>
