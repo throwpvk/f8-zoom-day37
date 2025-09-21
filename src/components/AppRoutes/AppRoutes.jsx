@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "../../components/ScrollToTop";
 import Home from "../../pages/Home";
-import GoToTop from "../../pages/GoToTop";
+import GoToTopPage from "../../pages/GoToTop";
 import ModalDemo from "../../pages/ModalDemo";
 import Profile from "../../pages/Profile";
 import DefaultLayout from "../../layouts/DefaultLayout";
@@ -13,7 +13,7 @@ function AppRoutes() {
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/gototop" element={<GoToTop />} />
+          <Route path="/gototop" element={<GoToTopPage />} />
           <Route path="/modaldemo" element={<ModalDemo />} />
           <Route path="/profile" element={<Profile />} />
         </Route>
